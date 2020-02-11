@@ -1,0 +1,59 @@
+<androidx.cardview.widget.CardView android:layout_width="200dp"
+    android:layout_height="380dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    app:cardCornerRadius="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_margin="5dp">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="280dp"
+            android:background="@drawable/a"
+            android:id="@+id/picThumb"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="asdf adf"
+                android:id="@+id/filmName"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="评分：100"
+                    android:id="@+id/filmRating"/>
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:text="Detail"
+                    android:textSize="7dp"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/btnFilmDetail"
+                    />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TotalViews：2020/02/06"
+                android:id="@+id/filmDate"/>
+        </LinearLayout>
+    </LinearLayout>
+Date
+
+</androidx.cardview.widget.CardView>
+
+
